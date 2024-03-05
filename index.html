@@ -1,15 +1,51 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Party Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .invitation {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 600px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .rsvp-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff5722;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .rsvp-btn:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation">
+        <h1>You're Invited!</h1>
+        <p>Come join us in celebrating [Name]'s Birthday!</p>
+        <p>Date: [Date]</p>
+        <p>Time: [Time]</p>
+        <p>Location: [Location]</p>
+        <p>Please RSVP by [RSVP Date]</p>
+        <a href="mailto:youremail@example.com" class="rsvp-btn">RSVP Now</a>
+    </div>
+</body>
+</html>
